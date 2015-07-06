@@ -1,0 +1,19 @@
+name: 'tekartik_bootstrap_material_design'
+version: 0.3.0
+description: Boostrap material design wrappers
+author: Alexandre Roux <alex@tekartik.com>
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  tekartik_bootstrap:
+    git: git://github.com/alextekartik/tekartik_bootstrap.dart
+  tekartik_jquery:
+    git: git://github.com/alextekartik/tekartik_jquery.dart
+dev_dependencies:
+  test: any
+  tekartik_bootstrap_material_design_asset:
+    git: git://github.com/alextekartik/tekartik_bootstrap_material_design_asset.dart
+  tekartik_bootstrap_asset:
+    git: git://github.com/alextekartik/tekartik_bootstrap_asset.dart
+  tekartik_jquery_asset:
+    git: git://github.com/alextekartik/tekartik_jquery_asset.dart

@@ -1,0 +1,57 @@
+<html>
+
+    <head>
+
+        <link href="packages/tekartik_bootstrap_asset/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect -->
+        <link href="packages/tekartik_bootstrap_material_design_asset/0.3.0/css/roboto.min.css" rel="stylesheet">
+        <link href="packages/tekartik_bootstrap_material_design_asset/0.3.0/css/material.min.css" rel="stylesheet">
+        <link href="packages/tekartik_bootstrap_material_design_asset/0.3.0/css/ripples.min.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <!-- Your site -->
+
+        <h1>You can add your site here.</h1>
+
+        <h2>To ensure that material-design theme is working, check out the buttons below.</h2>
+
+        <h3 class="text-muted">If you can see the ripple effect on clicking them, then you are good to go!</h3>
+
+
+        <p class="bs-component">
+            <a href="javascript:void(0)" class="btn btn-default">Default</a>
+            <a href="javascript:void(0)" class="btn btn-primary">Primary</a>
+            <a href="javascript:void(0)" class="btn btn-success">Success</a>
+            <a href="javascript:void(0)" class="btn btn-info">Info</a>
+            <a href="javascript:void(0)" class="btn btn-warning">Warning</a>
+            <a href="javascript:void(0)" class="btn btn-danger">Danger</a>
+            <a href="javascript:void(0)" class="btn btn-link">Link</a>
+        </p>
+
+        <!-- Your site ends -->
+
+        <script src="packages/tekartik_jquery_asset/2.1.4/jquery-2.1.4.min.js"></script>
+        <script src="packages/tekartik_bootstrap_asset/3.3.5/js/bootstrap.min.js"></script>
+
+        <script src="packages/tekartik_bootstrap_material_design_asset/0.3.0/js/ripples.min.js"></script>
+        <script src="packages/tekartik_bootstrap_material_design_asset/0.3.0/js/material.min.js"></script>
+        <script type="application/dart">
+            import 'package:tekartik_bootstrap_material_design/bootstrap_material_design.dart';
+
+            main() {
+                jMaterial.init();
+            }
+            /*
+            $(document).ready(function() {
+                // This command is used to initialize some elements and make them work properly
+                $.material.init();
+            });
+            */
+        </script>
+
+    </body>
+
+</html>
